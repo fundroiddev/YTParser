@@ -57,6 +57,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    //activity-ktx
+    implementation(libs.activityktx)
+
     //retrofit
     implementation(libs.retrofit)
     implementation(libs.gson)
