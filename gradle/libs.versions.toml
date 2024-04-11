@@ -9,12 +9,13 @@ appcompat = "1.6.1"
 material = "1.11.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
-hilt = "2.44"
+hilt = "2.48"
 retrofit = "2.9.0"
 kotlinx-json = "1.0.0"
 coroutines = "1.3.9"
 lifecycle = "2.4.0"
 glide = "4.14.2"
+activityktx = "1.3.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -33,7 +34,8 @@ lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata-
 lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
-glide = {group = "com.github.bumptech.glide", name = "glide", version.ref = "glide"}
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+activityktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityktx" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
