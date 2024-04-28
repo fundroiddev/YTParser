@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">YTParser</string>
+    <string name="error">Ошибка</string>
+    <string name="error_expand">Произошла ошибка: %s. Повторите попытку.</string>
+    <string name="ok">Ok</string>
+    <string name="enter_query">Введите запрос к YouTube</string>
+    <string name="go">Go</string>
+    <string name="search_result">Результат поиска</string>
 </resources>
